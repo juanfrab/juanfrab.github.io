@@ -1,0 +1,13 @@
+{{ partial "header.html" . }}
+
+<h3 class="list-title">{{ .Title }}</h3>
+
+{{ .Content }}
+
+{{ range.Data.Pages }}
+<article class="post-snippet">
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+</article>
+{{ end }}
+
+<!--{{ partial "footer.html" . }}-->

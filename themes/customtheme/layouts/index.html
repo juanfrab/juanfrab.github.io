@@ -1,0 +1,22 @@
+{{ partial "header.html" . }}
+
+<h1 class="index-title">Welcome to my blog</h1>
+
+<p class="index-presentation">Hi my name is Juan, I'm from Argentina and I'm a Software Developer specialized in backend with <span style="color:#FF5555;font-weight: bold;">Ruby On Rails</span></p>
+
+
+<h2 class="index-posts-title">Posts</h2>
+<section class="index-posts">
+    {{ range (where .Site.RegularPages "Section" "posts") }}
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{ end }}
+</section>
+
+
+
+<div class="index-content">
+    {{ .Content }}
+</div>
+
+
+{{ partial "footer.html" . }}
