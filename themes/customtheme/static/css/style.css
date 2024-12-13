@@ -90,12 +90,8 @@ footer {
   margin-right: auto;
   color: #FF206E;
   font-size: 1.3em;
-  font-weight:normal;
+  font-weight:bold;
   font-style: italic;
-}
-
-.title a:hover {
-  font-weight: bolder;
 }
 
 
