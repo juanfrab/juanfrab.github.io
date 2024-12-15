@@ -9,8 +9,8 @@
 }
 
 @font-face {
-  font-family: 'RecursiveMonoLnrSt-Regular';
-  src: url('../fonts/RecursiveMonoLnrSt-Regular.woff2') format('woff2'),
+  font-family: 'JetBrainsMono-Regular';
+  src: url('../fonts/JetBrainsMono-Regular.woff2') format('woff2'),
 }
 
 /* LAYOUT */
@@ -41,7 +41,7 @@ ul li li{
 
 a {
   text-decoration: none;
-  font-family: 'RecursiveMonoLnrSt-Regular';
+  font-family: 'JetBrainsMono-Regular';
   color: #f8f8f8;
 }
 
@@ -105,14 +105,14 @@ footer {
 }
 
 .index-title {
-  font-family: 'RecursiveMonoLnrSt-Regular';
+  font-family: 'JetBrainsMono-Regular';
   color: #ff5555;
   text-align: center;
   margin-top: 2em;
 }
 
 .index-presentation {
-  font-family: 'RecursiveMonoLnrSt-Regular';
+  font-family: 'JetBrainsMono-Regular';
   color: #f8f8f8;
   text-align: center;
   font-size: 1.2em;
@@ -122,14 +122,14 @@ footer {
 }
 
 .index-posts-title {
-  font-family: 'RecursiveMonoLnrSt-Regular';
+  font-family: 'JetBrainsMono-Regular';
   text-align: center;
   color: #9D65FF;
   margin-top: 2em;
 }
 
 .index-posts {
-  font-family: 'RecursiveMonoLnrSt-Regular';
+  font-family: 'JetBrainsMono-Regular';
   text-align: center;
 }
 
@@ -145,7 +145,7 @@ footer {
   text-align: center;
   justify-content: center;
   align-items: center;
-  font-family: 'RecursiveMonoLnrSt-Regular';
+  font-family: 'JetBrainsMono-Regular';
 
 
 }
@@ -169,7 +169,7 @@ footer {
 /*single.html*/
 
 .single-content {
-  font-family: 'RecursiveMonoLnrSt-Regular';
+  font-family: 'JetBrainsMono-Regular';
   margin: auto;
   width: 50%;
   text-align: center;
@@ -199,7 +199,7 @@ pre {
 
 
 code {
-  font-family: 'RecursiveMonoLnrSt-Regular';
+  font-family: 'JetBrainsMono-Regular';
   font-weight: bolder;
   overflow-x: auto;
 }
@@ -262,7 +262,7 @@ p {
   margin-top: 1.1em;
   color: #FF5555;
   font-size: 100px;
-  font-family: 'RecursiveMonoLnrSt-Regular';
+  font-family: 'JetBrainsMono-Regular';
   font-weight: bolder;
 }
 
@@ -271,7 +271,7 @@ p {
   text-align: center;
   color: #FF5555;
   font-size: 40px;
-  font-family: 'RecursiveMonoLnrSt-Regular'
+  font-family: 'JetBrainsMono-Regular'
 }
 
 
